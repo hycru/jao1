@@ -19,15 +19,12 @@ class PrimeiraRota extends StatelessWidget {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: const Text('Rota 1'),
         ),
-      body: Container(
-        
-        child: ElevatedButton(
-          child: const Text('segunda tela'),
-          onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const Rota2()));
-          },
-        ),
+      body: ElevatedButton(
+        child: const Text('segunda tela'),
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const Rota2()));
+        },
       ),
       
     );
