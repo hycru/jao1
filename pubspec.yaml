@@ -1,4 +1,4 @@
-name: teste
+name: jao
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -59,17 +59,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-      - iamges/Captura de Tela (41).png
-      - iamges/Captura de Tela (42).png
-      - iamges/Captura de Tela (43).png
-      - iamges/Captura de Tela (44).png
-      - iamges/Captura de Tela (45).png
-      - iamges/Captura de Tela (46).png
-      - iamges/Captura de Tela (47).png
-      - iamges/Captura de Tela (48).png
-      - iamges/Captura de Tela (49).png
-     # - back.webp
+  # assets:
+  #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
